@@ -1,0 +1,4 @@
+{
+    "php.validate.executablePath": "/opt/homebrew/bin/php",
+    "phpserver.phpPath": "/opt/homebrew/bin/php"
+}
