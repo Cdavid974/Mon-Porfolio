@@ -1,30 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include_once "includes/header.php"; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Porfolio de David CVS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <header class="site-header">
-        <div class="logo">
-            <a href="index.php">David CVS</a>
+<main>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Faites de vos idées des projets, et de l'argent...</h1>
+            <div>Envoyez-moi votre idée de projet, et je vous la réalise en deux semaines (mensonge garanti).</div>
         </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Mes Projets</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Créer un projet</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-</body>
-
-</html>
+        <img src="/img/david-Portfolio-developpeur_IA.webp" alt="Photo de profile David">
+    </section>
+    <section class="projects" id="projects">
+        <h2>Mes Projets</h2>
+        <div class="list-projects"></div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Mes Slills</h2>
+        <div class="list-skills"></div>
+    </section>
+</main>
+<?php include "includes/footer.php"; ?>
